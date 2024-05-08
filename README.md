@@ -56,7 +56,7 @@ A comprehensive final project designed to showcase the power and flexibility of 
 3. **Check Kubernetes Status**  
    Verify the status of your cluster resources (It is very important to follow everything step by step!):
    ```bash
-   kubectl get pods
+  
    kubectl describe pods
    kubectl get nodes
    minikube addons enable metrics-server |or| minikube start --addons=metrics-server
@@ -67,7 +67,6 @@ A comprehensive final project designed to showcase the power and flexibility of 
    kubectl delete hpa products-service-hpa
    kubectl delete hpa users-service-hpa
    kubectl get hpa
-   kubectl describe hpa
    kubectl get events
    kubectl get deployments
    kubectl get services
